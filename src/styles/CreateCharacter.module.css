@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 85vh;
+  width: 80vw;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  letter-spacing: 0.4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin: 3rem 0 2rem 0;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 2rem;
+  width: 90%;
+  height: 2rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  color: #3c354e;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  color: white;
+}
+
+label {
+  margin-left: 2rem;
+}
+
+input:focus{
+  display: inline-block;
+  box-shadow: 0 0 0 0.2rem #b9abe0;
+  backdrop-filter: blur(12rem);
+  border-radius: 1rem;
+}
+
+.submitButton {
+  margin: 1rem 0 2rem 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 65%;
+  height: 3rem;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submitButton:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.submitButton:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.submitButton:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
